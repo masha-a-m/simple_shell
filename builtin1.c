@@ -107,8 +107,8 @@ int _myalias(info_t *info)
 	int i = 0;
 	char *p = NULL;
 	list_t *node = NULL;
-	if (info->argc == 1)
 
+	if (info->argc == 1)
 	{
 		node = info->alias;
 		while (node)
@@ -141,5 +141,3 @@ int _myalias(info_t *info)
 	return (0);
 
 }
-
-
